@@ -5,10 +5,9 @@ const ScrollDown = () => {
   return (
     <div className={styles.homeScroll}>
       <a
-        href=""
         className={`${styles.homeScrollButton} button--flex`}
         onClick={() => {
-          navigate("/about");
+          navigate("about");
         }}
       >
         <svg
