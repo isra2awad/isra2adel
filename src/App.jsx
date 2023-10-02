@@ -19,7 +19,9 @@ function App() {
       ) : name === "shop" ? (
         <Skills />
       ) : (
-        <Home />
+        <main className="main">
+          <Home />
+        </main>
       )}
     </>
   );
