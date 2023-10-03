@@ -97,3 +97,88 @@
     transform: translateY(3.75rem);
   }
 }
+
+.homeScrollName {
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+  margin-right: var(--mb-0-25);
+  margin-left: 2px;
+}
+
+.homeScrollArrow {
+  font-size: 1.25rem;
+  color: var(--title-color);
+}
+
+@media screen and (max-width: 992px) {
+  .homeContent {
+    grid-template-columns: 100px repeat(2, 1fr);
+    column-gap: 1.25rem;
+  }
+
+  .homeHand {
+    width: 26px;
+    height: 26px;
+  }
+
+  .homeSubtitle {
+    padding-left: 3.75rem;
+    margin-bottom: var(--mb-1);
+  }
+  .homeSubtitle::before {
+    width: 42px;
+    top: 0.8rem;
+  }
+
+  .homeDescription {
+    max-width: initial;
+    margin-bottom: var(--mb-2-5);
+  }
+
+  .homeImage {
+    width: 250px;
+    height: 250px;
+    box-shadow: inset 0 0 0 8px rgb(255, 255, 255, 30%);
+  }
+
+  .homeScroll {
+    margin-left: 7.5rem;
+  }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  .homeContent {
+    grid-template-columns: 0.5fr 3fr;
+    padding-top: 3.5rem;
+  }
+
+  .homeImage {
+    order: initial;
+    justify-self: initial;
+    width: 200px;
+    height: 200px;
+    box-shadow: inset 0 0 0 6px rgb(255, 255, 255, 30%);
+  }
+
+  .homeData {
+    grid-column: 1/3;
+  }
+
+  .homeScroll {
+    display: none;
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .homeImage {
+    width: 180px;
+    height: 180px;
+  }
+
+  .homeHand {
+    width: 22px;
+    height: 22px;
+  }
+}
