@@ -1,9 +1,6 @@
 import styles from "./Home.module.css";
-import { useNavigate } from "react-router-dom";
 
 const Data = () => {
-  const navigate = useNavigate();
-
   return (
     <div className={styles.homeData}>
       <h1 className={styles.homeTitle}>
@@ -68,12 +65,7 @@ const Data = () => {
         development, project management, teaching, linguistics, educational
         psychology, and Montessori.
       </p>
-      <button
-        className="button button--flex"
-        onClick={() => {
-          navigate("/contact");
-        }}
-      >
+      <a href="#contact" className="button button--flex">
         let's discuss it further
         <svg
           className="button__icon"
@@ -92,7 +84,7 @@ const Data = () => {
             fill="var(--container-color)"
           ></path>
         </svg>
-      </button>
+      </a>
     </div>
   );
 };

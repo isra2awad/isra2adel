@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+
 import styles from "./header.module.css";
 
 const Header = () => {
@@ -20,35 +20,35 @@ const Header = () => {
         >
           <ul className={styles.navList}>
             <li className={styles.navItem}>
-              <Link to="/" className={styles.navLink}>
+              <a href="" className={styles.navLink}>
                 <i className={`il uil-estate ${styles.navIcon}`}></i>Home
-              </Link>
+              </a>
             </li>
             <li className={styles.navItem}>
-              <Link to="/about" className={`${styles.navLink}`}>
+              <a href="" className={`${styles.navLink}`}>
                 <i className={`uil uil-user ${styles.navIcon}`}></i>About
-              </Link>
+              </a>
             </li>
             <li className={styles.navItem}>
-              <Link to="/skills" className={styles.navLink}>
+              <a href="" className={styles.navLink}>
                 <i className={`uil uil-file-alt ${styles.navIcon}`}></i>Skills
-              </Link>
+              </a>
             </li>
             <li className={styles.navItem}>
-              <Link to="/services" className={styles.navLink}>
+              <a href="" className={styles.navLink}>
                 <i className={`uil uil-briefcase-alt ${styles.navIcon}`}></i>
                 Services
-              </Link>
+              </a>
             </li>
             <li className={styles.navItem}>
-              <Link to="/portfolio" className={styles.navLink}>
+              <a href="" className={styles.navLink}>
                 <i className={`uil uil-scenery ${styles.navIcon}`}></i>Portfolio
-              </Link>
+              </a>
             </li>
             <li className={styles.navItem}>
-              <Link to="/contact" className={styles.navLink}>
+              <a href="" className={styles.navLink}>
                 <i className={`uil uil-message ${styles.navIcon}`}></i>Contact
-              </Link>
+              </a>
             </li>
           </ul>
           <i

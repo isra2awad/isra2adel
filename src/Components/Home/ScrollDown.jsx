@@ -1,15 +1,9 @@
 import styles from "./Home.module.css";
-import { useNavigate } from "react-router-dom";
+
 const ScrollDown = () => {
-  const navigate = useNavigate();
   return (
     <div className={styles.homeScroll}>
-      <a
-        className={`${styles.homeScrollButton} button--flex`}
-        onClick={() => {
-          navigate("about");
-        }}
-      >
+      <a href="#about" className={`${styles.homeScrollButton} button--flex`}>
         <svg
           width="32px"
           height="32px"
