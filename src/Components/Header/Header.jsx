@@ -20,33 +20,33 @@ const Header = () => {
         >
           <ul className={styles.navList}>
             <li className={styles.navItem}>
-              <a href="" className={styles.navLink}>
+              <a href="#home" className={styles.navLink}>
                 <i className={`il uil-estate ${styles.navIcon}`}></i>Home
               </a>
             </li>
             <li className={styles.navItem}>
-              <a href="" className={`${styles.navLink}`}>
+              <a href="#about" className={`${styles.navLink}`}>
                 <i className={`uil uil-user ${styles.navIcon}`}></i>About
               </a>
             </li>
             <li className={styles.navItem}>
-              <a href="" className={styles.navLink}>
+              <a href="#skills" className={styles.navLink}>
                 <i className={`uil uil-file-alt ${styles.navIcon}`}></i>Skills
               </a>
             </li>
             <li className={styles.navItem}>
-              <a href="" className={styles.navLink}>
+              <a href="#services" className={styles.navLink}>
                 <i className={`uil uil-briefcase-alt ${styles.navIcon}`}></i>
                 Services
               </a>
             </li>
             <li className={styles.navItem}>
-              <a href="" className={styles.navLink}>
+              <a href="#portfolio" className={styles.navLink}>
                 <i className={`uil uil-scenery ${styles.navIcon}`}></i>Portfolio
               </a>
             </li>
             <li className={styles.navItem}>
-              <a href="" className={styles.navLink}>
+              <a href="#contact" className={styles.navLink}>
                 <i className={`uil uil-message ${styles.navIcon}`}></i>Contact
               </a>
             </li>
