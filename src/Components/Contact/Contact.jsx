@@ -21,7 +21,7 @@ const Contact = () => {
       <span className="section__subtitle">Contact me</span>
       <div className={`${styles.contactContainer} grid container`}>
         <div className={styles.contactContent}>
-          <h3 className={styles.contactTitle}>Let's have a coffee </h3>
+          <h3 className={styles.contactTitle}>Let's work togather </h3>
           <div className={styles.contactInfo}>
             <div className={styles.contactCard}>
               <i className={`bx bx-mail-send ${styles.contactCardIcon}`}></i>
@@ -59,7 +59,7 @@ const Contact = () => {
 
         <div className={styles.contactContent}>
           <h3 className={styles.contactTitle}>
-            Let's make your idea a working app
+            Let's turn your idea into a working app
           </h3>
           <form ref={form} onSubmit={sendEmail} className={styles.contactForm}>
             <div className={styles.contactFormDiv}>
