@@ -16,10 +16,9 @@ function App() {
         <Home />
         <About />
 
-        <Contact />
-
         <Skills />
         <Services />
+        <Contact />
       </main>
     </>
   );
