@@ -59,8 +59,9 @@ const Contact = () => {
 
         <div className={styles.contactContent}>
           <h3 className={styles.contactTitle}>
-            Let's Explore How I Can Add Value in Frontend Development, Tech
-            Customer Service, and Project Coordination"
+            Let's Explore How I Can Add Value in <br />
+            Frontend Development, Tech Customer Service, <br />
+            and Project Coordination
           </h3>
           <form ref={form} onSubmit={sendEmail} className={styles.contactForm}>
             <div className={styles.contactFormDiv}>

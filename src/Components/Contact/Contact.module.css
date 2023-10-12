@@ -6,7 +6,8 @@
 }
 
 .contactTitle {
-  text-align: center;
+  text-align: start;
+
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-1-5);
