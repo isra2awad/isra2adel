@@ -19,7 +19,7 @@ function App() {
 
         <Skills />
         <Services />
-
+        <Portfolio />
         <Contact />
       </main>
     </>
