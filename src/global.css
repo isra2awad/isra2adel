@@ -113,6 +113,75 @@ img {
   height: auto;
 }
 
+/****background****/
+/* Styling for the first <div> element */
+
+.main {
+  position: relative;
+}
+.div1 {
+  background-color: #fbe2e3;
+  position: absolute;
+  z-index: -10;
+  top: -6rem;
+  right: 11rem;
+  height: 31.25rem;
+  width: 31.25rem;
+  border-radius: 50%;
+  filter: blur(10rem);
+}
+
+/* Media query for smaller screens */
+@media (min-width: 640px) {
+  .div1 {
+    width: 68.75rem;
+  }
+}
+
+/* Styling for the second <div> element */
+.div2 {
+  background-color: #dbd7fb;
+  position: absolute;
+  z-index: -10;
+  top: -1rem;
+  left: -35rem;
+  height: 31.25rem;
+  width: 50rem;
+  border-radius: 50%;
+  filter: blur(10rem);
+}
+
+/* Media queries for different screen sizes */
+@media (min-width: 640px) {
+  .div2 {
+    width: 68.75rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .div2 {
+    left: -33rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .div2 {
+    left: -28rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .div2 {
+    left: -15rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .div2 {
+    left: -5rem;
+  }
+}
+
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
   padding: 6rem 0 2rem;

@@ -13,6 +13,8 @@ import "./global.css";
 function App() {
   return (
     <>
+      <div className="div1"></div>
+      <div className="div2"></div>
       <Header />
 
       <main className="main">

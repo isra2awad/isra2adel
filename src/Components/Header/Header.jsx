@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import { motion } from "framer-motion";
 
 import styles from "./header.module.css";
 
@@ -18,7 +19,12 @@ const Header = () => {
   const [activeNav, setActiveNav] = useState("#home");
 
   return (
-    <header ref={headerRef} className={styles.header}>
+    <motion.header
+      initial={{ y: -100, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      ref={headerRef}
+      className={styles.header}
+    >
       <nav className={`${styles.nav} container`}>
         <a href="index.html" className={styles.navLogo}>
           Isra
@@ -135,7 +141,7 @@ const Header = () => {
           <i className="uil uil-apps"> </i>
         </div>
       </nav>
-    </header>
+    </motion.header>
   );
 };
 

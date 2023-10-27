@@ -5,6 +5,7 @@
   left: 0;
   z-index: var(--z-fixed);
   background-color: var(--body-color);
+  opacity: 0.7;
 }
 
 .nav {
@@ -57,6 +58,7 @@
   .header {
     top: initial;
     bottom: 0;
+    opacity: 1;
   }
   .nav {
     height: var(--header-height);
