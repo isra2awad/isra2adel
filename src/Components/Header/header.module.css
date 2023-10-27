@@ -58,7 +58,7 @@
   .header {
     top: initial;
     bottom: 0;
-    opacity: 1;
+    opacity: 1 !important;
   }
   .nav {
     height: var(--header-height);

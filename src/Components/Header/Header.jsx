@@ -21,7 +21,7 @@ const Header = () => {
   return (
     <motion.header
       initial={{ y: -100, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
+      animate={{ y: 0, opacity: 0.8 }}
       ref={headerRef}
       className={styles.header}
     >
